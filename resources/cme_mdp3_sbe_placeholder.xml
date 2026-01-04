@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Placeholder for CME MDP 3.0 SBE XML templates.
+     Replace with the official template(s) when available and wire codegen. -->
+<messageSchema package="cme.mdp3" id="0" version="0" semanticVersion="0.0.0">
+  <types>
+    <composite name="messageHeader" description="SBE message header placeholder">
+      <type name="blockLength" primitiveType="uint16"/>
+      <type name="templateId" primitiveType="uint16"/>
+      <type name="schemaId" primitiveType="uint16"/>
+      <type name="version" primitiveType="uint16"/>
+    </composite>
+  </types>
+
+  <messages>
+    <message name="Placeholder" id="0" description="No-op placeholder">
+      <field name="dummy" id="1" type="uint32"/>
+    </message>
+  </messages>
+</messageSchema>
